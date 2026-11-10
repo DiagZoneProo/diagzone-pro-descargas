@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b4aa2">
+  <meta name="description" content="Centro de descargas DiagZone PRO. Aplicación para diagnóstico automotriz en Android.">
+  <title>Descargas | DiagZone PRO</title>
+  <style>
+    :root{--blue:#0b4aa2;--blue2:#1769cf;--ink:#14243a;--muted:#607086;--line:#e3ebf5;--bg:#f3f7fc}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:linear-gradient(180deg,#eaf3ff 0,#f7faff 360px,var(--bg) 100%);color:var(--ink);min-height:100vh}
+    .wrap{width:min(920px,calc(100% - 32px));margin:auto;padding:28px 0 42px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:30px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.2px;color:#103d7e}
+    .mark{width:44px;height:44px;border-radius:14px;background:linear-gradient(145deg,#0b4aa2,#2784ef);display:grid;place-items:center;color:white;font-size:22px;box-shadow:0 8px 20px #0b4aa233}
+    .tag{font-size:12px;font-weight:750;letter-spacing:1.1px;color:#4671a7}
+    .hero{background:white;border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 18px 55px #174b8512}
+    .hero-top{padding:42px 38px 34px;text-align:center;background:radial-gradient(circle at 50% 0,#dcecff 0,white 68%)}
+    .eyebrow{display:inline-block;padding:7px 12px;border-radius:999px;background:#eaf3ff;color:#1455a6;font-size:11px;font-weight:800;letter-spacing:1px}
+    h1{font-size:clamp(30px,5vw,46px);line-height:1.08;margin:18px 0 12px;letter-spacing:-1.4px}
+    .intro{max-width:570px;margin:0 auto;color:var(--muted);font-size:16px;line-height:1.65}
+    .product{margin:28px auto 0;max-width:520px;min-height:154px;border-radius:20px;background:linear-gradient(135deg,#0c3672,#1268c8 60%,#4b9df4);display:flex;align-items:center;justify-content:center;gap:22px;padding:24px;color:white;position:relative;overflow:hidden}
+    .product:before,.product:after{content:"";position:absolute;border:1px solid #ffffff26;border-radius:50%;width:230px;height:230px}
+    .product:before{left:-100px;top:-140px}.product:after{right:-120px;bottom:-160px}
+    .device{width:110px;height:75px;border:5px solid #dcecff;border-radius:12px;background:#0b1f3c;display:grid;place-items:center;box-shadow:0 12px 20px #001b3e55;z-index:1}
+    .device span{font-size:27px}
+    .product-copy{text-align:left;z-index:1}.product-copy strong{display:block;font-size:18px}.product-copy small{display:block;color:#d8eaff;margin-top:5px}
+    .download-area{padding:30px 24px 34px;text-align:center}
+    .download-btn{display:inline-flex;align-items:center;justify-content:center;gap:11px;width:min(100%,390px);padding:17px 24px;border-radius:14px;background:linear-gradient(100deg,#0b4aa2,#1976e8);color:white;text-decoration:none;font-weight:850;font-size:16px;box-shadow:0 10px 22px #1264c833;transition:transform .15s,box-shadow .15s}
+    .download-btn:hover{transform:translateY(-2px);box-shadow:0 14px 26px #1264c844}
+    .download-btn svg{width:21px;height:21px}
+    .file-note{font-size:12px;color:#75849a;margin:13px 0 0}
+    .notice{margin:22px auto 0;max-width:560px;text-align:left;background:#f5f9ff;border:1px solid #e3efff;border-radius:14px;padding:15px 17px;color:#53677f;font-size:13px;line-height:1.55}
+    .notice b{color:#244d7e}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+    .step{background:white;border:1px solid var(--line);border-radius:16px;padding:18px 16px}
+    .num{width:28px;height:28px;border-radius:9px;background:#eaf3ff;color:#1256aa;display:grid;place-items:center;font-weight:850;font-size:13px;margin-bottom:10px}
+    .step b{display:block;font-size:14px;margin-bottom:5px}.step span{font-size:12px;line-height:1.5;color:var(--muted)}
+    footer{text-align:center;color:#8290a3;font-size:12px;margin-top:26px;line-height:1.7}
+    footer strong{color:#45617f}
+    @media(max-width:600px){.wrap{padding-top:18px}.hero-top{padding:32px 20px 26px}.product{gap:14px;padding:18px}.device{width:84px;height:64px}.steps{grid-template-columns:1fr}.step{display:flex;gap:12px;align-items:flex-start}.num{flex:0 0 28px;margin:0}.tag{font-size:10px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="brand"><div class="mark">DZ</div><span>DiagZone PRO</span></div>
+      <div class="tag">CENTRO DE DESCARGAS</div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-top">
+        <span class="eyebrow">DIAGNÓSTICO AUTOMOTRIZ</span>
+        <h1>Tu herramienta de diagnóstico,<br>lista para descargar.</h1>
+        <p class="intro">Descarga la aplicación DiagZone para tu dispositivo Android o contacta con nuestro equipo de soporte.</p>
+        <div class="product">
+          <div class="device"><span>▣</span></div>
+          <div class="product-copy"><strong>DiagZone para Android</strong><small>Aplicación de diagnóstico automotriz</small></div>
+        </div>
+      </div>
+
+      <div class="download-area">
+        <!-- REEMPLAZA EL ENLACE DE ABAJO CON TU ENLACE DE DESCARGA -->
+        <a class="download-btn" href="https://drive.google.com/uc?export=download&id=1Ki5JTBBB9UvHkvK7v4YRpVBTzQUTkyNg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+          DESCARGAR APK
+        </a>
+        <p class="file-note">Archivo de instalación para Android · Verifica que tu dispositivo sea compatible.</p>
+        <a class="download-btn" style="margin-top:14px;background:white;color:#0b4aa2;border:1px solid #cfe0f5;box-shadow:none" href="https://wa.me/525518157778?text=Hola%2C%20necesito%20ayuda%20con%20la%20descarga%20de%20DiagZone." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.6 0 .28 5.31.28 11.84c0 2.09.55 4.13 1.59 5.93L.18 24l6.38-1.67a11.8 11.8 0 0 0 5.56 1.41h.01c6.53 0 11.84-5.31 11.84-11.84 0-3.17-1.23-6.15-3.45-8.42ZM12.13 21.7h-.01a9.8 9.8 0 0 1-4.99-1.37l-.36-.21-3.79.99 1.01-3.69-.23-.38a9.8 9.8 0 0 1-1.5-5.2c0-5.43 4.42-9.85 9.86-9.85a9.8 9.8 0 0 1 6.97 2.89 9.8 9.8 0 0 1 2.88 6.98c0 5.43-4.42 9.85-9.84 9.85Zm5.4-7.38c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+          CONTACTAR POR WHATSAPP
+        </a>
+        <div class="notice"><b>Importante:</b> Android puede mostrar una advertencia al instalar aplicaciones descargadas fuera de Google Play. Continúa únicamente si verificaste que el archivo proviene de una fuente confiable. No desactives las protecciones de seguridad del dispositivo.</div>
+      </div>
+    </section>
+
+    <section class="steps" aria-label="Pasos de instalación">
+      <div class="step"><div class="num">1</div><div><b>Descarga</b><span>Pulsa el botón azul para obtener el archivo APK.</span></div></div>
+      <div class="step"><div class="num">2</div><div><b>Abre el archivo</b><span>Cuando termine la descarga, abre el APK desde las notificaciones o la carpeta Descargas.</span></div></div>
+      <div class="step"><div class="num">3</div><div><b>Instala</b><span>Sigue las indicaciones de Android. Si tienes dudas, contacta a tu proveedor.</span></div></div>
+    </section>
+
+    <footer><strong>DiagZone PRO</strong><br>Soluciones de diagnóstico profesional al alcance de tu taller.<br>Este sitio es un portal informativo de descarga.</footer>
+  </main>
+</body>
+</html>
